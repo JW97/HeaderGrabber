@@ -10,6 +10,7 @@
 		04176F7616B585AD0007B97F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04176F7516B585AD0007B97F /* Foundation.framework */; };
 		04176F7916B585AD0007B97F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04176F7816B585AD0007B97F /* main.m */; };
 		04176F7D16B585AD0007B97F /* HeaderGrabber.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 04176F7C16B585AD0007B97F /* HeaderGrabber.1 */; };
+		04176F8516B587260007B97F /* IPSWActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04176F8416B587260007B97F /* IPSWActions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		04176F7816B585AD0007B97F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04176F7B16B585AD0007B97F /* HeaderGrabber-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HeaderGrabber-Prefix.pch"; sourceTree = "<group>"; };
 		04176F7C16B585AD0007B97F /* HeaderGrabber.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = HeaderGrabber.1; sourceTree = "<group>"; };
+		04176F8316B587260007B97F /* IPSWActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPSWActions.h; sourceTree = "<group>"; };
+		04176F8416B587260007B97F /* IPSWActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPSWActions.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				04176F7816B585AD0007B97F /* main.m */,
+				04176F8316B587260007B97F /* IPSWActions.h */,
+				04176F8416B587260007B97F /* IPSWActions.m */,
 				04176F7C16B585AD0007B97F /* HeaderGrabber.1 */,
 				04176F7A16B585AD0007B97F /* Supporting Files */,
 			);
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04176F7916B585AD0007B97F /* main.m in Sources */,
+				04176F8516B587260007B97F /* IPSWActions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
